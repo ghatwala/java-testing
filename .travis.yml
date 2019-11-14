@@ -1,8 +1,9 @@
 matrix:
   include:
     - dist: bionic
+      arch: ppc64le
     - dist: xenial
-arch: ppc64le
+      arch: ppc64le
 language: java
 jdk:
   - openjdk8
