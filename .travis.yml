@@ -5,14 +5,7 @@ matrix:
      dist: bionic
    - os: linux
      arch: ppc64le
-     dist: bionic
-   - os: linux
-     arch: ppc64le
      dist: xenial
-   - os: linux
-     arch: ppc64le
-     dist: xenial
-
 language: java
 jdk:
   - openjdk8
