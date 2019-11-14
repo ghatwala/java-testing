@@ -1,5 +1,11 @@
-arch: ppc64le
-
+matrix:
+  include:
+    - env: ENV=bionic
+      dist: bionic
+      arch: ppc64le
+    - env: ENV=xenial
+      dist: xenial
+      arch: ppc64le
 language: java
 jdk:
   - openjdk8
