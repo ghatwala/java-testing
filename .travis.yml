@@ -11,7 +11,7 @@ matrix:
         - openjdk13
     - env: ENV=xenial
       dist: xenial
-      dk:
+      jdk:
         - openjdk8
         - openjdk11
         - openjdk12
