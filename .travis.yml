@@ -4,14 +4,19 @@ matrix:
   include:
     - env: ENV=bionic
       dist: bionic
+      jdk:
+        - openjdk8
+        - openjdk11
+        - openjdk12
+        - openjdk13
     - env: ENV=xenial
       dist: xenial
+      dk:
+        - openjdk8
+        - openjdk11
+        - openjdk12
+        - openjdk13
 
-jdk:
-  - openjdk8
-  - openjdk11
-  - openjdk12
-  - openjdk13
 script:
   - java -version
   - echo ${TRAVIS_CPU_ARCH}
