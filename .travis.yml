@@ -4,6 +4,7 @@ matrix:
   include:
     - env: ENV=bionic-JDK8
       dist: bionic
+      jdk: openjdk8
     - env: ENV=bionic-JDK11
       dist: bionic
       jdk: openjdk11
@@ -15,6 +16,7 @@ matrix:
       jdk: openjdk13
     - env: ENV=xenial-JDK8
       dist: xenial
+      jdk: openjdk8
     - env: ENV=xenial-JDK11
       dist: xenial
       jdk: openjdk11
