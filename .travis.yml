@@ -1,9 +1,4 @@
-matrix:
-  include:
-    - os: linux
-      arch: ppc64le
-    - os: linux
-      arch: ppc64le
+arch: ppc64le
 dist: 
   - xenial
   - bionic
