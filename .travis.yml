@@ -2,14 +2,20 @@ matrix:
   include:
     - dist: bionic
       arch: ppc64le
+      jdk:
+        - openjdk8
+        - openjdk11
+        - openjdk12
+        - openjdk13
     - dist: xenial
       arch: ppc64le
+      jdk:
+        - openjdk8
+        - openjdk11
+        - openjdk12
+        - openjdk13
 language: java
-jdk:
-  - openjdk8
-  - openjdk11
-  - openjdk12
-  - openjdk13
+
 script:
   - java -version
   - echo ${TRAVIS_CPU_ARCH}
