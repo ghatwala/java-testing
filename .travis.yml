@@ -1,0 +1,9 @@
+dist: bionic
+arch: ppc64le
+language: java
+jdk:
+  - openjdk8
+  - openjdk13
+script:
+  - java -version
+  - echo ${TRAVIS_CPU_ARCH}
