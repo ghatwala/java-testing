@@ -1,11 +1,14 @@
 arch: ppc64le
-dist: xenial
+
 language: java
 jdk:
   - openjdk8
   - openjdk11
   - openjdk12
   - openjdk13
+dist: 
+  - xenial
+  - bionic
 script:
   - java -version
   - echo ${TRAVIS_CPU_ARCH}
