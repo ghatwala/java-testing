@@ -1,5 +1,6 @@
-language: java
-arch: ppc64le
+#language: java
+arch: s390x
+
 matrix:
   include:
     - env: ENV=bionic-JDK8
